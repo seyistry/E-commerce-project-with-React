@@ -10,7 +10,7 @@ class Directory extends React.Component {
                 {
                     title: "Hats",
                     imageUrl:
-                        "https://images.unsplash.com/photo-1598137204081-05b1e1525b73?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80",
+                        "https://images.unsplash.com/photo-1565839412225-98641b2d7b5b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80",
                     id: 2,
                 },
                 {
