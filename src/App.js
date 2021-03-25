@@ -1,9 +1,11 @@
 import React, { Component } from "react";
 import { Switch, Route } from "react-router-dom";
-import ShopPage from "./pages/shop/shop.component";
+
 import "./App.css";
 
+import ShopPage from "./pages/shop/shop.component";
 import Header from './components/header/header.component'
+import SignInAndSignUpPage from './pages/sign-in-sign-up-page/sign-in-sign-up-page.component'
 import HomePage from "./pages/hompages/homepage.component";
 
 const hatsPage = (props) => {
@@ -23,6 +25,7 @@ class App extends Component {
                 <Switch>
                     <Route exact path="/" component={HomePage} />
                     <Route path="/shop" component={ShopPage} />
+                    <Route path='/signin' component={SignInAndSignUpPage} />
                 </Switch>
             </div>
         );
